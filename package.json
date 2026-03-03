@@ -1,0 +1,21 @@
+{
+  "name": "wemerson-fps",
+  "version": "2.0.0",
+  "description": "FPS Multiplayer Tático 3D | pcfs-Studio",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["fps", "multiplayer", "game", "three.js", "websocket"],
+  "author": "pcfs-Studio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  }
+}
